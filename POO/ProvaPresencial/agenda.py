@@ -23,7 +23,7 @@ class App:
         self.Button1.place(x = 510, y = 4, height = 70, width = 96)
         self.Button2 = Button(background = 'yellow', font = 'Arial 12 bold', text = 'Inserir')
         self.Button2.place(x = 510, y = 80, height = 40, width = 98)
-        self.Button3 = Button(background = 'orange', font = 'Arial 12 bold', text = 'Alterar')
+        self.Button3 = Button(background = 'orange', font = 'Arial 12 bold', text = 'Consultar')
         self.Button3.place(x = 510, y = 127, height = 40, width = 99)
 
         self.janela.mainloop()
